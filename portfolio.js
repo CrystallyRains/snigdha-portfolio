@@ -91,7 +91,7 @@ export const skillsSection = {
 		},
 		{
 			title: "Cloud Infrastructure & Architecture",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/skills/cloud.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
                                 emoji(
