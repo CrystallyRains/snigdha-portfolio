@@ -1,91 +1,109 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Mohit Mishra",
-	title: "Hi all, I'm Mohit",
+	name: "Snigdha Chaudhari",
+	title: "Hi all, I'm Snigdha",
 	description:
-		"I'm Mohit.❤️ You can also call me as Chessman. I'm a Machine learning Developer and a competitive programmer. Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include Data Analysis, Data Visualization, Machine learning and Deep Learning. I have developed a strong acumen for problem solving, and I enjoy an occasional challenge.",
+		"I'm Snigdha ❤️, a Cloud Engineer passionate about designing scalable solutions and automating infrastructure with AWS, Docker, Kubernetes and Terraform. My skills include cloud management, containerization, and building CI/CD pipelines. I love solving complex problems and optimizing cloud resources through scripting in Python, Bash, and Go.",
 	resumeLink:
 		"https://bit.ly/3UF6kgN",
 };
 
 export const openSource = {
-	githubUserName: "mohitmishra786",
+	githubUserName: "CrystallyRains",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-//	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/mohitmishraml/",
-	github: "https://github.com/mohitmishra786",
-	medium: "http://mohitmishra786687.medium.com/",
-	twitter: "https://twitter.com/chessMan786",
+//	url: "https://github.com/CrystallyRains/snigdha-portfolio.io/",
+	linkedin: "https://www.linkedin.com/in/snigdha-chaudhari/",
+	github: "https://github.com/CrystallyRains",
+	hashnode: "https://hashnode.com/@SnigdhaC",
+	twitter: "https://x.com/the_techy_gurl",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY MACHINE LEARNING DEVELOPER WHO WANTS TO TALK WITH DATA",
+		"CLOUD ENGINEER PASSIONATE ABOUT AUTOMATION AND INFRASTRUCTURE MANAGEMENT",
 	data: [
 		{
-			title: "Machine Learning Engineer",
-			lottieAnimationFile: "/lottie/skills/machine_learning.json", // Path of Lottie Animation JSON File
+			title: "Cloud Engineer",
+			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing end-to-end machine learning projects."
+					"⚡ Expertise in deploying scalable and secure cloud solutions on AWS."
 				),
 				emoji(
-					"⚡	Experienced in Exploratory data analysis."
+					"⚡ Proficient in cloud automation using Terraform and Ansible."
 				),
 				emoji(
-					"⚡ Experience of creating Computer Vision and Language Models."
+					"⚡ Experience in containerization and orchestration using Docker and Kubernetes."
 				),
 				emoji(
-					"⚡ Creating some model related to smell."
+					"⚡ Strong scripting skills with Python, Bash, and Go."
 				),
 				emoji(
-					"⚡ Also have created a small machine learning library using basic libraries."
+					"⚡ Skilled in cloud cost optimization and monitoring with AWS CloudWatch."
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "AWS",
+					fontAwesomeClassname: "logos:aws",
 				},
 				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
+					skillName: "Terraform",
+					fontAwesomeClassname: "logos:terraform",
 				},
 				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
 				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
+					skillName: "Docker",
+					fontAwesomeClassname: "logos:docker",
 				},
 				{
 					skillName: "Azure",
 					fontAwesomeClassname: "logos:microsoft-azure",
 				},
+				{
+                                        skillName: "Kubernetes",
+                                        fontAwesomeClassname: "logos:kubernetes",
+                                },
+                                {
+                                        skillName: "Python",
+                                        fontAwesomeClassname: "logos:python",
+                                },
+				{
+                                        skillName: "Bash",
+                                        fontAwesomeClassname: "logos:bash",
+                                },
+                                {
+                                        skillName: "Go",
+                                        fontAwesomeClassname: "logos:go",
+                                },
+
+
 			],
 		},
 		{
-			title: "Full Stack Development",
+			title: "Cloud Infrastructure & Architecture",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
+				emoji("⚡ Experience of working on multiple cloud platforms"),
+                                emoji(
+                                        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+                                ),
+                                emoji(
+                                        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+                                ),
+                                emoji(
+                                        "⚡ Skilled in infrastructure monitoring and logging using AWS CloudWatch."
+                                ),
+
 			],
 			softwareSkills: [
 				{
@@ -100,202 +118,156 @@ export const skillsSection = {
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
 				},
-				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
-				},
-				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
-				},
+				 {
+                                        skillName: "AWS",
+                                        fontAwesomeClassname: "logos:aws",
+                                },
+                                {
+                                        skillName: "Azure",
+                                        fontAwesomeClassname: "logos:microsoft-azure",
+                                },
+                                {
+                                        skillName: "CloudWatch",
+                                        fontAwesomeClassname: "logos:aws-cloudwatch",
+                                },
+                                {
+                                        skillName: "Github Actions",
+                                        fontAwesomeClassname: "logos:github-actions",
+                                },
+                                {
+                                        skillName: "Github",
+                                        fontAwesomeClassname: "akar-icons:github-fill",
+                                },
+                                {
+                                        skillName: "Docker",
+                                        fontAwesomeClassname: "logos:docker-icon",
+                                },
+                                {
+                                        skillName: "Kubernetes",
+                                        fontAwesomeClassname: "logos:kubernetes",
+                                },
 
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
-				},
-				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
 			],
 		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				// ? Check README To get icon details
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
-			],
-		},
-		
 	],
 };
-
+		
 export const SkillBars = [
-	{
-		Stack: "Machine Learning/ Deep Learing Modeling",
-		progressPercentage: "90",
-	},
-	{
-		Stack: "Data Analysis",
-		progressPercentage: "85",
-	},
-	{
-		Stack: "Data Visualization",
-		progressPercentage: "80",
-	},
-	{
-		Stack: "MLOps",
-		progressPercentage: "50",
-	},
-	{
-		Stack: "Cloud",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "60", //Insert relative proficiency in percentage
-	},
-	{
-		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "90",
-	},
+  {
+    Stack: "Cloud Infrastructure (AWS, Azure)",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Automation (Terraform, Ansible)",
+    progressPercentage: "85",
+  },
+  {
+    Stack: "Containerization & Orchestration (Docker, Kubernetes)",
+    progressPercentage: "80",
+  },
+  {
+    Stack: "CI/CD (Jenkins, GitHub Actions)",
+    progressPercentage: "75",
+  },
+  {
+    Stack: "Cloud Monitoring & Logging (CloudWatch)",
+    progressPercentage: "70",
+  },
+  {
+    Stack: "Networking (VPC, Load Balancers, NAT Gateways)",
+    progressPercentage: "80",
+  },
+  {
+    Stack: "Scripting (Python, Bash, Go)",
+    progressPercentage: "85",
+  },
+  {
+    Stack: "Linux Administration",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Problem Solving & Programming",
+    progressPercentage: "85",
+  },
 ];
-
 export const educationInfo = [
-	{
-		schoolName: "Lovely Professional University",
-		subHeader: "Bachelors of Computer Science and Engineering",
-		duration: "June 2019 - Present",
-		desc: "Participated in the various coding contest and published a paper.",
-		grade: "Grade A",
-		descBullets: [
-			"I am currently pursuing minor in Machine Learning.",
-			"I have also studied DBMS, OS, Computer Networks and other computer science fundamentals.",
-		],
-	},
+  {
+    schoolName: "DBATU University",
+    subHeader: "Bachelor of Technology in Computer Science",
+    duration: "July 2022 - March 2025",
+    desc: "Studying core computer science subjects with a focus on cloud computing and infrastructure management.",
+    grade: "In Progress",
+    descBullets: [
+      "Learning cloud computing, automation, and DevOps practices.",
+      "Studied core subjects like Operating Systems, Computer Networks, and Database Management Systems.",
+    ],
+  },
+  {
+    schoolName: "MSBTE University",
+    subHeader: "Diploma in Computer Science",
+    duration: "June 2019 - June 2022",
+    desc: "Focused on foundational computer science and programming principles.",
+    grade: "Completed",
+    descBullets: [
+      "Gained hands-on experience with Linux systems, programming in Python, and basic networking.",
+    ],
+  },
 ];
 
 export const experience = [
-	{
-		role: "Machine Learning Engineer",
-		company: "Omdena",
-		companylogo: "/img/icons/common/omdena.png",
-		date: "Sept 2021 – Jul 2022",
-		desc: "I worked as Machine Learning Engineer to design and create the AI algorithms capable of learning and making predictions. I worked here as a type and contributed myself as a enthusiastic ML Developer.",
-		descBullets: [
-			"Improved accuracy of the model from 82 percent to 91 percent in the career recommendation model.",
-			"Formulated an AutoML pipeline to automatically search for the best neural model for Natural Language Processing tasks.",
-			"Analyzed factors contributing to homelessness in Texas and proposed a solution for homelessness.",
-			"Took the charge of developing an image augmentation pipeline for school image datasets.",
-		],
-	},
-	{
-		role: "Junior Machine Learning Engineer",
-		company: "iNeuron.ai",
-		companylogo: "/img/icons/common/ineuron.jpg",
-		date: "Jul 2021 – Sep 2021",
-		descBullets: [
-			"Developed a solution that should be able to predict whether the mushroom is poisonous or edible.",
-			"Created a web app for the visualization of drug activity using streamlit.",
-		],
-	},
-	{
-		role: "Open Source Collaborator",
-		company: "KWOC",
-		companylogo: "/img/icons/common/kwoc.png",
-		date: "Nov 2021 - Feb 2022",
-		desc: "Worked as Open Source Software Developer to create a web app for the analyis, in which I integrated computer vision AI model to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
+  {
+    role: "Infrastructure Analyst III",
+    company: "DXC Technology",
+    companylogo: "/img/icons/common/dxc.png",
+    date: "2022 – Present",
+    desc: "Collaborated with project managers and architects to provision cloud infrastructure, ensuring alignment with project requirements and improving cloud operations.",
+    descBullets: [
+      "Provisioned and managed AWS infrastructure, ensuring high availability and scalability.",
+      "Monitored and optimized cloud resources using AWS CloudWatch to maintain system health.",
+     "Worked on resolving infrastructure issues and maintained cloud operations to meet SLAs.",
+    ],
+  },
+  {
+    role: "Cloud Intern",
+    company: "Placify",
+    companylogo: "/img/icons/common/placify.jpeg", // Change to the actual logo path
+    date: "2021 – 2022",
+    desc: "Worked on cloud infrastructure automation and deployment, contributing to scaling and optimizing cloud resources.",
+    descBullets: [
+      "Developed automation scripts to streamline cloud resource provisioning using AWS and Terraform.",
+      "Assisted in managing cloud-based applications and ensuring scalability through Auto Scaling and Load Balancers.",
+      "Collaborated with the team to improve the deployment processes using CI/CD pipelines.",
+    ],
+  },
 ];
 
+
 export const projects = [
-	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio built with react.js, next.js, typerScript, tailWind CSS and Sanity that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/mohitmishra786/My-Portfolio",
-		// link: "https://bit.ly/3AINU77",
-	},
-	{
-		name: "Tea-Quality Predictor",
-		desc: "I developed a detector and classifier model which will detect the correct image and classify its quality and also with that I also developed Flask API and used it for the deployment into Microsoft Azure. I had used AWS for the deployment of the model.",
-		github: "https://github.com/mohitmishra786/Tea-Leaf-Quality",
-	},
-	{
-		name: "Homelessness in Texas",
-		desc: "Get hands-on experience in technical skills with Exploratory Data Analysis. This project focuses mainly on the root causes of the increasing Homelessness in Texas. The data has been collected from Texas Homeless Network, Joint Centre for Housing Studies Harvard, Texas Government, Homelessness Information System, GitHub, and Kaggle. We were able to compare how COVID-19 has affected Texas and how the effects of COVID-19 have attributed to the other socio-economic factors of homelessness and homelessness rates.",
-		github: "https://github.com/mohitmishra786/Homelessness-in-Texas",
-		link: "https://bit.ly/3AINU77",
-	},
-	{
-		name: "Career Recommendation System",
-		desc: "In order to make this engine available for students, we created a web application using Flask as the backend. After filling out the form the student clicks on Recommendation to receive the top recommendation from the engine with a probability for each Major Core and with an explanation of the relevant scores fed to the engine. There any many algorithms used, which were built to predict the compatibility to a particular career given a students high school test scores.",
-		github: "https://github.com/mohitmishra786/Career-Recommendation-System",
-	},
+  {
+    name: "Three-Tier Architecture Deployment on AWS",
+    desc: "Deployed a scalable and secure three-tier architecture on AWS, consisting of web, application, and database layers. Utilized Elastic Load Balancers for traffic distribution, Auto Scaling for dynamic resource management, and RDS for managed database services. Implemented security best practices by isolating each tier in private and public subnets with proper security groups and IAM roles.",
+    github: "https://github.com/snigdha/three-tier-architecture", // Change the URL to your GitHub if necessary
+  },
+  {
+    name: "VPC Servers and Secure Application Deployment",
+    desc: "Built a highly available VPC with multi-AZ applications using autoscaling and application load balancers on AWS. Secured the application by placing instances in private subnets and configuring a NAT Gateway for controlled internet access.",
+    github: "https://github.com/snigdha/vpc-servers-deployment", // Change the URL to your GitHub if necessary
+  },
+  {
+    name: "Highly Scalable WordPress Deployment on AWS",
+    desc: "Deployed a scalable WordPress site on AWS using Elastic Load Balancer, Auto Scaling, and CloudFront CDN to ensure high availability and low latency. Optimized the infrastructure to handle increased traffic with automatic scaling.",
+    github: "https://github.com/snigdha/wordpress-aws-deployment", // Change the URL to your GitHub if necessary
+  },
+  {
+    name: "AWS Cloud Cost Optimization",
+    desc: "Developed a Lambda function to identify and remove unused EBS snapshots, reducing storage costs by 15%. This project optimized AWS resource usage to minimize costs and ensure efficient cloud storage management.",
+    github: "https://github.com/snigdha/aws-cost-optimization", // Change the URL to your GitHub if necessary
+  },
+  {
+    name: "Dockerized Golang Calculator Application",
+    desc: "Created a Golang-based calculator application using Docker multistage builds to minimize the Docker image size by 800x. This project focused on optimizing Docker images for efficient deployment.",
+    github: "https://github.com/snigdha/docker-calculator", // Change the URL to your GitHub if necessary
+  },
 ];
 
 export const feedbacks = [
@@ -313,19 +285,18 @@ export const feedbacks = [
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Mohit Mishra",
-	description:
-		"A passionate Machine Learning Developer and MLOps Enthusiast.",
-	author: "Mohit Mishra",
-	image: "https://avatars.githubusercontent.com/u/71754779?v=4",
-	// url: "https://developer-portfolio-1hanzla100.vercel.app",
-	keywords: [
-		"Mohit",
-		"Mohit Mishra",
-		"@chessman786",
-		"mohitmishra786",
-		"Portfolio",
-		"Mohit Portfolio ",
-		"Mohit Mishra Portfolio",
-	],
-}
+  title: "Snigdha Chaudhari",
+  description: "A passionate Cloud Engineer and DevOps Enthusiast.",
+  author: "Snigdha Chaudhari",
+  image: "https://avatars.githubusercontent.com/u/102229202?v=4",
+  // url: "https://your-portfolio-url.com", // Replace with your portfolio URL if you have one
+  keywords: [
+    "Snigdha",
+    "Snigdha Chaudhari",
+    "Cloud Engineer",
+    "DevOps",
+    "Snigdha Portfolio",
+    "Snigdha Chaudhari Portfolio",
+  ],
+};
+
