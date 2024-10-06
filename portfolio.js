@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm Snigdha ❤️, a Cloud Engineer passionate about designing scalable solutions and automating infrastructure with AWS, Docker, Kubernetes and Terraform. My skills include cloud management, containerization, and building CI/CD pipelines. I love solving complex problems and optimizing cloud resources through scripting in Python, Bash, and Go.",
 	resumeLink:
-		"https://bit.ly/3UF6kgN",
+		"https://github.com/CrystallyRains/snigdha-portfolio/blob/main/Snigdha-Cloud-S.pdf",
 };
 
 export const openSource = {
